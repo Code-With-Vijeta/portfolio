@@ -650,7 +650,7 @@ span{
     }
     .home {
         padding: 0 3% 23rem;
-        justify-content: baseline;
+        justify-content: center;
         text-align: center;
     }
     .home-content h3{
