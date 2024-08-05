@@ -183,7 +183,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: professionRotate 10s ease-out infinite;
+    animation: professionRotate 5s ease-out infinite;
 }
 @keyframes professionRotate {
     0%,20%{
@@ -681,7 +681,8 @@ span{
     }
     .home .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-120px,-210px);
-margin-left:60px;
+        margin-right: 85px;
+        margin-bottom: 74px;
     }
     .home .profession-box .profession:nth-child(2){
         transform: rotate(0deg) translate(0px,-335px);
@@ -691,7 +692,6 @@ margin-left:60px;
     }
     .home .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-220px,-335px);
-margin-left:50px;
     }
     .home .profession-box .circle{
         position: fixed;
@@ -746,13 +746,16 @@ margin-left:50px;
 @media (max-width: 768px) {
     .about-img img {
         width: 50vw; 
-        height: 50vh;
-        object-fit:contain; 
+        height: 40vh;
     }
 }
 @media(max-width:617px){
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
+    }
+    .about-img img {
+        width: 50vw; 
+        height: 40vh;
     }
 }
 @media(max-width:450px){
@@ -780,14 +783,15 @@ margin-left:50px;
     .contact form .input-box input{
         width: 100%;
     }
-    /* .about-img img{
-        width: 32vw;
-        height: 45vh;
-    } */
+    .about-img img {
+        width: 50vw; 
+        height: 40vh;
+    }
 }
 @media(max-width:365px){
-    .about-img img{
-        width: 70vw;
+    .about-img img {
+        width: 50vw; 
+        height: 40vh;
     }
     .footer{
         flex-direction: column-reverse;
@@ -796,8 +800,4 @@ margin-left:50px;
         text-align: center;
         margin-top: 2rem;
     }
-    /* .about-img img{
-        width: 90vw;
-        height: 40vh;
-    } */
 }
