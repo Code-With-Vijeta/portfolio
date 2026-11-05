@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Vijeta Nehra monogram favicon">
+  <!-- V + N monogram -->
+  <path d="M106 356 L170 120 L220 248 L276 120 L340 356 L292 356 L248 218 L220 292 L192 218 L148 356 Z"
+        fill="#111111"/>
+
+  <!-- N stem and diagonal -->
+  <path d="M312 356 L312 120 L372 356 L372 120 L432 356 L432 356 Z" fill="#111111"/>
+
+  <!-- Curved accent -->
+  <path d="M90 282 C196 332, 290 336, 400 286" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- Spark star -->
+  <g transform="translate(410 98)">
+    <path d="M0 -26 L8 -8 L26 0 L8 8 L0 26 L-8 8 L-26 0 L-8 -8 Z" fill="#111111"/>
+  </g>
+</svg>
