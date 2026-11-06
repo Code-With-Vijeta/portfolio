@@ -3,7 +3,7 @@ const groups = [
   [
     "01",
     "Programming Languages",
-    ["HTML", "CSS", "JavaScript", "Basic Python"],
+    ["HTML", "CSS", "JavaScript"],
   ],
   ["02", "Libraries & Frameworks", ["React", "Bootstrap", "Tailwind CSS"]],
   ["03", "Tools & Platforms", ["Git", "GitHub", "VS Code", "Vercel", "Render"]],
